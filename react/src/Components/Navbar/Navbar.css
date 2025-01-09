@@ -24,6 +24,7 @@
     display: flex;
     list-style: none;
     gap: 2rem;
+    align-items: center;
   }
   
   .nav-links li a {
@@ -35,7 +36,7 @@
   }
   
   .nav-links li a:hover {
-    color: #ffcb57;
+    color: grey ;
     transform: scale(1.1);
     transition: 0.2s ease;
   }
@@ -44,4 +45,16 @@
     background: linear-gradient(140deg, #2575fc, #6a11cb);
     transition: 2s;
   }
-  
+
+  .publishBtn{
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    background-color: #2575fc;
+    color: red;
+  }
+
+  .publishBtn:hover {
+    background-color: greenyellow;
+    transition: 0.1s;
+  }
+

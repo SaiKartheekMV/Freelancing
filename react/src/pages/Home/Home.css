@@ -1,3 +1,12 @@
+.homePlace{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
 .container {
     display: flex;
     flex-direction: row;
@@ -86,3 +95,49 @@
     border-radius: 10px;
   }
   
+
+  .info-place{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 90vw;
+    height: 45vh;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .con1,.con2,.con3{
+    border-radius: 15px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .accImg,.aiImg,.workImg{
+    width: 100px;
+    height: 100px ;
+    margin-bottom: 30px;
+  }
+
+  .aiImg,.workImg{
+    border-radius: 50px;
+  }
+
+ #p1,#p2,#p3{
+  color: grey;
+ }
+
+ .time,.money {
+  color: blueviolet;
+ }
+
+ h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+ }

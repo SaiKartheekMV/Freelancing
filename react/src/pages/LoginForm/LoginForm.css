@@ -12,7 +12,6 @@ main{
 .wrapper{
     width: 420px;
     background-color: transparent;
-    color: #fff;
     border: 2px soild rgba(55, 172, 74, 0.2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0,0,0,.2);
